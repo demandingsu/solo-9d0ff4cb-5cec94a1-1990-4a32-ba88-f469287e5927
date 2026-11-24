@@ -1,0 +1,38 @@
+{
+  "districts": [
+    {
+      "name": "东区",
+      "roster": [
+        {"id": "E-001", "is_slope": true},
+        {"id": "E-002", "is_slope": true},
+        {"id": "E-003", "is_slope": true},
+        {"id": "E-004", "is_slope": true},
+        {"id": "E-005", "is_slope": false},
+        {"id": "E-006", "is_slope": false},
+        {"id": "E-007", "is_slope": false},
+        {"id": "E-008", "is_slope": false}
+      ],
+      "first_round_quota": 2,
+      "actual_drawn": ["E-002", "E-006"]
+    },
+    {
+      "name": "西区",
+      "roster": [
+        {"id": "W-001", "is_slope": true},
+        {"id": "W-002", "is_slope": true},
+        {"id": "W-003", "is_slope": true},
+        {"id": "W-004", "is_slope": true},
+        {"id": "W-005", "is_slope": true},
+        {"id": "W-006", "is_slope": false},
+        {"id": "W-007", "is_slope": false},
+        {"id": "W-008", "is_slope": false},
+        {"id": "W-009", "is_slope": false},
+        {"id": "W-010", "is_slope": false}
+      ],
+      "first_round_quota": 6,
+      "actual_drawn": ["W-001", "W-002", "W-005", "W-007", "W-008", "W-010"]
+    }
+  ],
+  "supplement_quota": 5,
+  "seed": 20261124
+}

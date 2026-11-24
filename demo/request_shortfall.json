@@ -1,0 +1,27 @@
+{
+  "districts": [
+    {
+      "name": "东区",
+      "roster": [
+        {"id": "E-001", "is_slope": true},
+        {"id": "E-002", "is_slope": true},
+        {"id": "E-003", "is_slope": false}
+      ],
+      "first_round_quota": 1,
+      "actual_drawn": ["E-001"]
+    },
+    {
+      "name": "西区",
+      "roster": [
+        {"id": "W-001", "is_slope": true},
+        {"id": "W-002", "is_slope": true},
+        {"id": "W-003", "is_slope": false},
+        {"id": "W-004", "is_slope": false}
+      ],
+      "first_round_quota": 2,
+      "actual_drawn": ["W-002", "W-003"]
+    }
+  ],
+  "supplement_quota": 8,
+  "seed": 77
+}
